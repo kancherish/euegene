@@ -31,6 +31,7 @@ export class Auth {
 
     async loginUser({email,password}) {
         try {
+            console.log(this.client)
             return await this.account.createEmailPasswordSession(email, password);
         } catch (error) {
             console.log("APPWRITE:: ACCOUNT LOGIN ERROR:: " + error)
