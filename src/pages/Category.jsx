@@ -1,6 +1,4 @@
 import all from "../assets/all.png"
-import port from "../assets/port.png"
-import stream from "../assets/stream.png"
 import articles from "../assets/articles.png"
 import help from "../assets/help.png"
 import gift from "../assets/gift.png"
@@ -53,8 +51,6 @@ function CategoryPage() {
             </h1>
           <div className="w-full p-2 h-[25%] flex gap-16  items-center justify-center">
             <div className="w-full p-2 h-[25%] flex gap-16 justify-center">
-              <Card img={port} />
-              <Card img={stream} />
               <Card img={articles} />
             </div>
           </div>

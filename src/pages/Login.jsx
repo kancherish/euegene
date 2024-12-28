@@ -50,6 +50,8 @@ function Login() {
             }
         } catch (error) {
             alert(error)
+        }finally{
+            setIsDialogOpen(false)
         }
 
 
