@@ -2,7 +2,7 @@
 
 A simple yet powerful web application for creating, managing, and products. Built with modern web technologies and focused on simplicity.
 
-[Live Demo]() | [Report Bug](https://github.com/kancherish/euegene/issues)
+[Live Demo](https://euegene.vercel.app/) | [Report Bug](https://github.com/kancherish/euegene/issues)
 
 ### Demo Account
 ```
